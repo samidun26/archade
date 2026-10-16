@@ -1,0 +1,24 @@
+{
+  "name": "archade",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Flick & the Lost Reels of Ballyhoo: a 1930s rubber-hose cartoon 3D exploration game built with Three.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:single": "tsc --noEmit && vite build --mode single",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "build:artifact": "npm run build:single && node scripts/artifact-fragment.mjs"
+  },
+  "dependencies": {
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.185.0",
+    "typescript": "~5.9.3",
+    "vite": "~7.3.5",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
