@@ -42,6 +42,8 @@ body {
 #app {
   position: fixed;
   inset: 0;
+  /* shown while loading, and if WebGL isn't available */
+  background: var(--ink) url('/preview.jpg') center / cover no-repeat;
 }
 #gl {
   width: 100%;
@@ -1031,7 +1033,7 @@ select:focus-visible {
   inset: 0;
   display: grid;
   place-items: center;
-  background: var(--ink);
+  background: linear-gradient(rgba(29, 20, 15, 0.55), rgba(29, 20, 15, 0.8)), var(--ink) url('/preview.jpg') center / cover no-repeat;
   z-index: 60;
   pointer-events: auto;
 }
