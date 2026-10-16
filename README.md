@@ -1,20 +1,24 @@
 # Flick & the Lost Reels of Ballyhoo
 
+### [▶ Play it now: archade-alpha.vercel.app](https://archade-alpha.vercel.app)
+
+<p align="center"><a href="https://archade-alpha.vercel.app"><img src="docs/screenshots/title.jpg" alt="Title screen of Flick & the Lost Reels of Ballyhoo" width="100%"></a></p>
+
 A 3D exploration platformer drawn like a 1930s rubber-hose cartoon. You play **Flick**, a light-bulb kid with pie-cut eyes and noodle arms, on Ballyhoo Island the night of the Grand Picture Show. The dastardly storm cloud **Baron Von Blackout** has scattered the five film reels. Explore, help the islanders, then knock the Baron out of the sky.
 
 Runs in the browser (WebGL 2) on desktop and mobile. Everything (art, music, sound effects) is generated in code at runtime. There are no image, model or audio files.
 
-![Title screen](docs/screenshots/title.jpg)
+## Screenshots
 
-| Town Square | Gloomwood Forest |
+| | |
 | --- | --- |
-| ![Town Square](docs/screenshots/town.jpg) | ![Gloomwood Forest](docs/screenshots/forest.jpg) |
-| **Island map** | **Baron Von Blackout** |
-| ![Island map](docs/screenshots/map.jpg) | ![Boss fight](docs/screenshots/boss.jpg) |
+| ![Town Square](docs/screenshots/town.jpg)<br>**Town Square**: houses with window-eyes, bunting and a fountain | ![Midway Carnival](docs/screenshots/carnival.jpg)<br>**Midway Carnival**: Ferris wheel, carousel and striped tents |
+| ![Gloomwood Forest](docs/screenshots/forest.jpg)<br>**Gloomwood Forest**: mushrooms, faces in the trees, lanterns to light | ![Talking to the Mayor](docs/screenshots/dialogue.jpg)<br>**Characters** talk in typewriter dialogue and hand out quests |
+| ![Island map](docs/screenshots/map.jpg)<br>**Island map** drawn from the real terrain | ![Boss fight](docs/screenshots/boss.jpg)<br>**Baron Von Blackout** in a three-phase boss fight |
 
 > The style is inspired by 1930s cartoons (and games like Cuphead that celebrate them). All characters, names, places and music are original.
 
-## Play
+## Run it locally
 
 ```bash
 npm install
