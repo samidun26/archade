@@ -99,7 +99,7 @@ export class Screens {
            </div>
          </div>
          <p class="hint">Headphones recommended. Best with a mouse &amp; keyboard, gamepad, or touch.</p>
-         <p class="credit">A 1930s rubber-hose adventure. All characters are original.</p>`,
+         <p class="credit">A 1930s rubber-hose adventure. All characters are original.<br><span class="madeby">Made by <b>samidun</b></span></p>`,
         'title clear',
       );
       el.addEventListener('click', (e) => {
@@ -163,7 +163,7 @@ export class Screens {
             </div>
             <button class="btn secondary" data-act="town">Return to Town Square</button>
             <button class="btn secondary" data-act="title">Save &amp; Quit to Title</button>
-          </div></div>`,
+          </div><p class="signoff">Made by <b>samidun</b></p></div>`,
         '',
         () => done('resume'),
       );
@@ -312,6 +312,7 @@ export class Screens {
       };
       el = this.open(
         `<div class="panel card results"><h2></h2><div class="grade" aria-label="Grade ${grade}">${grade}</div><dl>${rows.map(() => '<dt></dt><dd></dd>').join('')}</dl>
+          <p class="signoff">Thanks for playing! Made by <b>samidun</b></p>
           <div class="row"><button class="btn" data-act="explore" autofocus>Keep exploring</button><button class="btn secondary" data-act="title">Back to title</button></div></div>`,
         'story',
       );

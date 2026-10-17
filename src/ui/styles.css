@@ -659,6 +659,33 @@ select:focus-visible {
   animation: fade-in 0.6s 1.4s both;
   text-align: center;
 }
+.title .madeby {
+  display: inline-block;
+  margin-top: 3px;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+}
+.title .madeby b {
+  font-weight: 400;
+  color: var(--cream);
+}
+.signoff {
+  margin: 14px 0 0;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+.signoff b {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--red);
+}
+.results .signoff {
+  margin: 0 0 14px;
+}
 .title .credit {
   position: absolute;
   bottom: var(--gutter-b);

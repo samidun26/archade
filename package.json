@@ -1,6 +1,7 @@
 {
   "name": "archade",
   "private": true,
+  "author": "samidun",
   "version": "1.0.0",
   "description": "Flick & the Lost Reels of Ballyhoo: a 1930s rubber-hose cartoon 3D exploration game built with Three.js",
   "type": "module",

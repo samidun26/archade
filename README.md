@@ -16,6 +16,8 @@ Runs in the browser (WebGL 2) on desktop and mobile. Everything (art, music, sou
 | ![Gloomwood Forest](docs/screenshots/forest.jpg)<br>**Gloomwood Forest**: mushrooms, faces in the trees, lanterns to light | ![Talking to the Mayor](docs/screenshots/dialogue.jpg)<br>**Characters** talk in typewriter dialogue and hand out quests |
 | ![Island map](docs/screenshots/map.jpg)<br>**Island map** drawn from the real terrain | ![Boss fight](docs/screenshots/boss.jpg)<br>**Baron Von Blackout** in a three-phase boss fight |
 
+Made by **[samidun](https://github.com/samidun26)**.
+
 > The style is inspired by 1930s cartoons (and games like Cuphead that celebrate them). All characters, names, places and music are original.
 
 ## Run it locally
